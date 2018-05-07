@@ -1,0 +1,10 @@
+<Alloy>
+	<Window class="container">
+		<View id="vArriba">
+			<Label id="labelArriba" onClick="doClickArriba">Hola desde arriba!!!</Label>
+		</View>
+		<View id="vAbajo">
+			<Label id="labelAbajo" onClick="doClickAbajo">Hola desde abajo!!!</Label>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,39 @@
+".container": {
+	width: '100%',
+	height: '100%',
+	backgroundColor:"red",
+	layout: 'vertical'
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+}
+
+"#vArriba" : {
+	backgroundColor : Alloy.Globals.paletaColores.another_gray,
+	width: Titanium.UI.FILL,
+	height: '50%',
+	layout: 'absolute'
+}
+
+"#labelArriba": {
+	color: Alloy.Globals.paletaColores.cs,
+	font: {
+		fontSize: 12
+	}
+}
+
+"#vAbajo" : {
+	backgroundColor : Alloy.Globals.paletaColores.cs,
+	width: Titanium.UI.FILL,
+	height: '50%',
+	layout: 'absolute'
+}
+
+"#labelAbajo": {
+	color: Alloy.Globals.paletaColores.another_gray,
+	font: {
+		fontSize: 12
+	}
+}
